@@ -1,0 +1,224 @@
+#navbar{
+    position: fixed;
+    left:0;
+    right: 0;
+    top:10px;
+}
+.logo{
+	height: 50px;
+	width: 55px;
+	cursor: pointer;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+.header_left{
+    margin-left: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+} 
+.header_right{
+    margin-right: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.menu_items a, .menu_items{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 12px;
+    text-decoration: none;
+	font-size: 15px;
+	font-family: Segoe Script;
+    margin-right:10px;
+    color: white;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+	width:100%;
+	height:100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("media/IMG_E4119.JPG");
+	background-position: center;
+	background-size: cover;
+	padding-left:8%;
+	padding-right:8%;
+	box-sizing: border-box;
+}
+
+
+pre{
+	color:#fff;
+	font-family: Papyrus;
+	font-size: 20px;
+	line-height: 25px;
+	padding: 5px
+
+}
+.col{
+	flex-basis: 50% ;
+}
+
+
+
+
+
+
+
+
+
+
+
+h1{
+	color: #fff;
+	font-size: 50px;
+	font-family: Gill Sans MT Ext Condensed Bold;
+}
+
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+
+.col{
+	flex-basis: 50% ;
+	margin-top: 150px;
+}
+
+.card{
+	width:200px;
+	height: 230px;
+	display: inline-block; 
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor:pointer;
+	margin: 10px 15px;
+	transform: transform 0.5s;
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+
+.card1{
+	background-image: url("media/kadandale.JPG");
+}
+
+
+.card2{
+	background-image: url("media/kemmanu.JPG");
+}
+
+
+.card3{
+	background-image: url("media/murudeshwar.JPG");
+}
+
+
+.card4{
+	background-image: url("media/goa.JPG");
+}
+
+
+
+.card:hover{
+	transform:translateY(-10px);
+}
+
+
+.kada1{
+	background-image: url("media/kada1.JPG");
+}
+
+
+.kada2{
+	background-image: url("media/kada2.JPG");
+}
+
+
+.kada3{
+	background-image: url("media/kada3.JPG");
+}
+
+
+.kada4{
+	background-image: url("media/kada4.JPG");
+}
+
+
+.kem1{
+	background-image: url("media/kem1.JPG");
+}
+
+
+.kem2{
+	background-image: url("media/kem2.JPG");
+}
+
+
+.kem3{
+	background-image: url("media/kem3.JPG");
+}
+
+
+.kem4{
+	background-image: url("media/kem4.JPG");
+}
+
+
+.mur1{
+	background-image: url("media/mur1.JPG");
+}
+
+
+.mur2{
+	background-image: url("media/mur2.JPG");
+}
+
+
+.mur3{
+	background-image: url("media/mur3.JPG");
+}
+
+
+.mur4{
+	background-image: url("media/mur4.JPG");
+}
+
+
+.goa1{
+	background-image: url("media/goa1.JPG");
+}
+
+
+.goa2{
+	background-image: url("media/goa2.JPG");
+}
+
+
+.goa3{
+	background-image: url("media/goa3.JPG");
+}
+
+
+.goa4{
+	background-image: url("media/goa4.JPG");
+}
